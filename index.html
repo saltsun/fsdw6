@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: peachpuff;
+        }
+        button{
+            background-color: black;
+            width: 100%;
+            color: powderblue;
+            padding: 1.5rem;
+            margin:1.5rem;
+            cursor: pointer;
+        }
+        form{
+            border: 5px solid black;
+        }
+        input[type=text],input[type=password]{
+            width: 100%;
+            margin: 1.5rem;
+            padding: 10px 10px;
+            border: 2px solid royalblue;
+            box-sizing: border-box;
+        }
+        button:hover{
+            opacity: 0.7;
+        }
+        .cancelbtn{
+            width:auto;
+            padding: 10px 10px;
+            margin: 10px 10px;
+        }
+        .container{
+            padding: 1.5rem;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>User Login Form</h1></center>
+    <form action="pfolio.html" method="get">
+        <div class="container">
+            <label>Username: </label>
+            <input type="text" name="username">
+            <label>Password: </label>
+            <input type="password" name="password">
+            <input type="submit"/>
+        </div>
+    </form>
+</body>
+</html>
